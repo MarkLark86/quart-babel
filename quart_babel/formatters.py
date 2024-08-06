@@ -63,9 +63,8 @@ def _get_format(key: str, format: str | None=None) -> str:
 
     if format in ('short', 'medium', 'full', 'long'):
         return_val = state.babel.date_formats[f'{key}.{format}']
-
-    if return_val is not None:
-        format = return_val
+        if return_val is not None:
+            format = return_val
 
     return format
 

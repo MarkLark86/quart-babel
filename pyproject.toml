@@ -65,7 +65,7 @@ python = ">=3.8"
 quart = "^0.19"
 Babel = ">2.11"
 importlib-metadata = ">6.0"
-pytz = "^2023.3"
+pytz = ">=2024.1"
 asgi-tools = ">0.73.2"
 
 [tool.poetry.group.dev.dependencies]
